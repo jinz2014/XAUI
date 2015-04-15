@@ -1,0 +1,132 @@
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_TOOL_NAME "altera_xcvr_xaui"
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_TOOL_VERSION "14.1"
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "xaui_phy" -name MISC_FILE [file join $::quartus(qip_path) "xaui_phy.cmp"]
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_TARGETED_DEVICE_FAMILY "Stratix V"
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_GENERATED_DEVICE_FAMILY "{Stratix V}"
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_QSYS_MODE "UNKNOWN"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_COMPONENT_NAME "eGF1aV9waHk="
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_COMPONENT_DISPLAY_NAME "WEFVSSBQSFk="
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_COMPONENT_AUTHOR "QWx0ZXJh"
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_COMPONENT_VERSION "MTQuMQ=="
+set_global_assignment -entity "xaui_phy" -library "xaui_phy" -name IP_COMPONENT_DESCRIPTION "WEdNSUkgdG8gWEFVSSB0cmFuc2NlaXZlcg=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_NAME "YWx0ZXJhX3hjdnJfeGF1aQ=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_DISPLAY_NAME "WEFVSSBQSFk="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_AUTHOR "QWx0ZXJh"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_VERSION "MTQuMQ=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_DESCRIPTION "WEdNSUkgdG8gWEFVSSB0cmFuc2NlaXZlcg=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "aW50ZXJmYWNlX3R5cGU=::U29mdCBYQVVJ::WEFVSSBpbnRlcmZhY2UgdHlwZQ=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "ZGF0YV9yYXRl::MzEyNSBNYnBz::RGF0YSBSYXRl"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "eGF1aV9wbGxfdHlwZQ==::QVRY::eGF1aV9wbGxfdHlwZQ=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "Z3VpX3BsbF90eXBl::QVRY::UExMIHR5cGU="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "QkFTRV9EQVRBX1JBVEU=::MzEyNSBNYnBz::QkFTRV9EQVRBX1JBVEU="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "ZW5fc3luY2Vfc3VwcG9ydA==::MA==::RW5hYmxlIFN5bmMtRSBzdXBwb3J0"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "dXNlX2NvbnRyb2xfYW5kX3N0YXR1c19wb3J0cw==::MQ==::SW5jbHVkZSBjb250cm9sIGFuZCBzdGF0dXMgcG9ydHM="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "ZXh0ZXJuYWxfcG1hX2N0cmxfcmVjb25m::MA==::RXh0ZXJuYWwgUE1BIGNvbnRyb2wgYW5kIGNvbmZpZ3VyYXRpb24="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "ZHluX3JlY29uZg==::MA==::RW5hYmxlIGR5bmFtaWMgcmVjb25maWd1cmF0aW9u"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "cmVjb3ZlcmVkX2Nsa19vdXQ=::MA==::RW5hYmxlIHJ4X3JlY292ZXJlZF9jbGsgcGlu"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "cmVjb25maWdfaW50ZXJmYWNlcw==::OA==::cmVjb25maWdfaW50ZXJmYWNlcw=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "dHhfdGVybWluYXRpb24=::T0NUXzEwMF9PSE1T::VHJhbnNtaXR0ZXIgdGVybWluYXRpb24gcmVzaXN0YW5jZQ=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "dHhfdm9kX3NlbGVjdGlvbg==::NA==::VHJhbnNtaXR0ZXIgVk9EIGNvbnRyb2wgc2V0dGluZw=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "dHhfcHJlZW1wX3ByZXRhcA==::MA==::UHJlLWVtcGhhc2lzIHByZS10YXAgc2V0dGluZw=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "dHhfcHJlZW1wX3ByZXRhcF9pbnY=::ZmFsc2U=::SW52ZXJ0IHRoZSBwcmUtZW1waGFzaXMgcHJlLXRhcCBwb2xhcml0eSBzZXR0aW5n"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "dHhfcHJlZW1wX3RhcF8x::MA==::UHJlLWVtcGhhc2lzIGZpcnN0IHBvc3QtdGFwIHNldHRpbmc="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "dHhfcHJlZW1wX3RhcF8y::MA==::UHJlLWVtcGhhc2lzIHNlY29uZCBwb3N0LXRhcCBzZXR0aW5n"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "dHhfcHJlZW1wX3RhcF8yX2ludg==::ZmFsc2U=::SW52ZXJ0IHRoZSBzZWNvbmQgcG9zdC10YXAgcG9sYXJpdHkgc2V0dGluZw=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "cnhfY29tbW9uX21vZGU=::MC44MnY=::UmVjZWl2ZXIgY29tbW9uIG1vZGUgdm9sdGFnZQ=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "cnhfdGVybWluYXRpb24=::T0NUXzEwMF9PSE1T::UmVjZWl2ZXIgdGVybWluYXRpb24gcmVzaXN0YW5jZQ=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "cnhfZXFfZGNfZ2Fpbg==::MA==::UmVjZWl2ZXIgREMgZ2Fpbg=="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "cnhfZXFfY3RybA==::MA==::UmVjZWl2ZXIgc3RhdGljIGVxdWFsaXplciBzZXR0aW5n"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "ZW5fZHVhbF9maWZv::MA==::RW5hYmxlIHBoYXNlIGNvbXBlbnNhdGlvbiBGSUZP"
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "bWdtdF9jbGtfaW5faHo=::MTUwMDAwMDAw::bWdtdF9jbGtfaW5faHo="
+set_global_assignment -entity "altera_xcvr_xaui" -library "xaui_phy" -name IP_COMPONENT_PARAMETER "bWdtdF9jbGtfaW5fbWh6::MTUw::bWdtdF9jbGtfaW5fbWh6"
+
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy.v"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/altera_xcvr_functions.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_pma_functions.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/altera_xcvr_xaui.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/hxaui_csr_h.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/hxaui_csr.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_mgmt2dec_phyreconfig.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_mgmt2dec_xaui.sv"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_pma_controller_tgx.v"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_reset_ctrl_lego.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_reset_ctrl_tgx_cdrauto.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_resync.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_csr_common_h.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_csr_common.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_csr_pcs8g_h.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_csr_pcs8g.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_csr_selector.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_mgmt2dec.sv"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/altera_wait_generate.v"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/altera_xcvr_reset_control.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_reset_counter.sv"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_pcs.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_reset.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_8b10b_dec.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_channel_synch.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_deskew.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_deskew_channel.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_deskew_ram.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/altera_soft_xaui_rx_deskew_ram.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_invalid_code_det.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_parity.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_parity_4b.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_parity_6b.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_rate_match.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_rate_match_ram.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_rl_chk_6g.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_rx_sm.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_tx.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_tx_8b10b_enc.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_tx_idle_conv.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/l_modules.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/serdes_4_unit_lc_siv.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/serdes_4_unit_siv.v"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/serdes_4unit.v"]
+set_global_assignment -library "xaui_phy" -name SOURCE_FILE [file join $::quartus(qip_path) "xaui_phy/alt_soft_xaui_pcs.ocp"]
+set_global_assignment -library "xaui_phy" -name VERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sxaui.v"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_xaui.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_low_latency_phy_nr.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_pcs.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_pcs_ch.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_pma.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_reconfig_bundle_to_xcvr.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_reconfig_bundle_to_ip.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_reconfig_bundle_merger.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_rx_pma.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_tx_pma.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_tx_pma_ch.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_h.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_avmm_csr.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_avmm_dcd.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_avmm.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_data_adapter.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_native.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_plls.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_10g_rx_pcs_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_10g_tx_pcs_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_8g_rx_pcs_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_8g_tx_pcs_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_8g_pcs_aggregate_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_common_pcs_pma_interface_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_common_pld_pcs_interface_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_pipe_gen1_2_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_pipe_gen3_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_rx_pcs_pma_interface_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_rx_pld_pcs_interface_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_tx_pcs_pma_interface_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_hssi_tx_pld_pcs_interface_rbc.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/sv_xcvr_custom_native.sv"]
+set_global_assignment -library "xaui_phy" -name SDC_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xaui_phy_top.sdc"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_arbiter.sv"]
+set_global_assignment -library "xaui_phy" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xaui_phy/alt_xcvr_m2s.sv"]
+set_global_assignment -library "xaui_phy" -name SOURCE_FILE [file join $::quartus(qip_path) "xaui_phy/plain_files.txt"]
+set_global_assignment -library "xaui_phy" -name SOURCE_FILE [file join $::quartus(qip_path) "xaui_phy/qencrypt_files.txt"]

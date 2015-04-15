@@ -1,0 +1,28 @@
+	component xaui_phy is
+		port (
+			pll_ref_clk          : in  std_logic                      := 'X';             -- clk
+			xgmii_tx_clk         : in  std_logic                      := 'X';             -- clk
+			xgmii_rx_clk         : out std_logic;                                         -- clk
+			xgmii_rx_dc          : out std_logic_vector(71 downto 0);                     -- data
+			xgmii_tx_dc          : in  std_logic_vector(71 downto 0)  := (others => 'X'); -- data
+			xaui_rx_serial_data  : in  std_logic_vector(3 downto 0)   := (others => 'X'); -- export
+			xaui_tx_serial_data  : out std_logic_vector(3 downto 0);                      -- export
+			rx_ready             : out std_logic;                                         -- export
+			tx_ready             : out std_logic;                                         -- export
+			phy_mgmt_clk         : in  std_logic                      := 'X';             -- clk
+			phy_mgmt_clk_reset   : in  std_logic                      := 'X';             -- reset
+			phy_mgmt_address     : in  std_logic_vector(8 downto 0)   := (others => 'X'); -- address
+			phy_mgmt_read        : in  std_logic                      := 'X';             -- read
+			phy_mgmt_readdata    : out std_logic_vector(31 downto 0);                     -- readdata
+			phy_mgmt_write       : in  std_logic                      := 'X';             -- write
+			phy_mgmt_writedata   : in  std_logic_vector(31 downto 0)  := (others => 'X'); -- writedata
+			phy_mgmt_waitrequest : out std_logic;                                         -- waitrequest
+			rx_channelaligned    : out std_logic;                                         -- data
+			rx_syncstatus        : out std_logic_vector(7 downto 0);                      -- data
+			rx_disperr           : out std_logic_vector(7 downto 0);                      -- data
+			rx_errdetect         : out std_logic_vector(7 downto 0);                      -- data
+			reconfig_from_xcvr   : out std_logic_vector(367 downto 0);                    -- data
+			reconfig_to_xcvr     : in  std_logic_vector(559 downto 0) := (others => 'X')  -- data
+		);
+	end component xaui_phy;
+

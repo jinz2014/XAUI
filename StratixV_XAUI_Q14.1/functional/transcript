@@ -1,0 +1,1026 @@
+# //  ModelSim SE-64 10.1 Dec  5 2011 Linux 2.6.18-308.4.1.el5.cny5.6509
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L ../xaui_phy_sim/mentor/libraries/xaui_phy -L ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig -L ../xaui_phy_sim/mentor/libraries/altera_ver -L ../xaui_phy_sim/mentor/libraries/lpm_ver -L ../xaui_phy_sim/mentor/libraries/sgate_ver -L ../xaui_phy_sim/mentor/libraries/altera_mf_ver -L ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver -L ../xaui_phy_sim/mentor/libraries/stratixv_ver -L ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver -L ../xaui_phy_sim/mentor/libraries/stratixv_pcie_hip_ver -L ../xaui_phy_reconfig_sim/mentor/libraries/altera_ver -L ../xaui_phy_reconfig_sim/mentor/libraries/lpm_ver -L ../xaui_phy_reconfig_sim/mentor/libraries/sgate_ver -L ../xaui_phy_reconfig_sim/mentor/libraries/altera_mf_ver -L ../xaui_phy_reconfig_sim/mentor/libraries/altera_lnsim_ver -L ../xaui_phy_reconfig_sim/mentor/libraries/stratixv_ver -L ../xaui_phy_reconfig_sim/mentor/libraries/stratixv_hssi_ver -L ../xaui_phy_reconfig_sim/mentor/libraries/stratixv_pcie_hip_ver -voptargs=+acc -t ps work.xaui_phy_top_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.xaui_phy_top_tb(fast)
+# Loading work.xaui_phy(fast)
+# Loading sv_std.std
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram_body(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram_body(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_avmm_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_atx_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.altera_generic_pll_functions(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.altera_lnsim_functions(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_aux(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_rx_buf(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_channel_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_cdr(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_pll(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_rx_deser(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_cdr_refclk_select_mux(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_ser(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_buf(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_rx_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_rx_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_common_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_tx_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_tx_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_common_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__3)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__3)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altera_std_synchronizer(fast)
+# Loading work.xaui_phy_reconfig(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_direct(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_soc_sv_unit(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_soc(fast)
+# Loading work.xaui_monitor(fast)
+#  
+do wave.do
+add wave -position 4  sim:/xaui_phy_top_tb/reconfig_to_xcvr
+add wave -position 5  sim:/xaui_phy_top_tb/reconfig_from_xcvr
+add wave -position 6  sim:/xaui_phy_top_tb/reconfig_busy
+
+run -a
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.pll[0].<protected>.<protected>.<protected>.stratixv_atx_pll_encrypted_inst.<protected>.<protected>.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.pll[0].<protected>.<protected>.<protected>.stratixv_atx_pll_encrypted_inst.<protected>.<protected>.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# [alt_xcvr_reconfig_soc.v] Full model disabled
+#             20357800Sending data
+# Break key hit 
+# Simulation stop requested.
+vlog ../xaui_phy_top_tb.v
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module xaui_phy_top_tb
+# ** Error: ../xaui_phy_top_tb.v(248): Cannot find `include file "phy_driver.v" in directories:
+#     /usr/local/3rdparty/mentor/modelsim10.1/modeltech/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /usr/local/3rdparty/mentor/modelsim10.1/modeltech/uvm-1.1/../verilog_src/uvm-1.1/src
+# /usr/local/3rdparty/mentor/modelsim10.1/modeltech/linux_x86_64/vlog failed.
+vlog ../xaui_phy_top_tb.v +incdir+../
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module xaui_phy_top_tb
+# 
+# Top level modules:
+# 	xaui_phy_top_tb
+restart -f; run -a
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.xaui_phy_top_tb(fast)
+# Loading work.xaui_phy(fast)
+# Loading sv_std.std
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram_body(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram_body(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_avmm_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_atx_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.altera_generic_pll_functions(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.altera_lnsim_functions(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_aux(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_rx_buf(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_channel_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_cdr(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_pll(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_rx_deser(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_cdr_refclk_select_mux(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_ser(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_buf(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_rx_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_rx_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_common_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_tx_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_tx_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_common_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__3)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__3)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altera_std_synchronizer(fast)
+# Loading work.xaui_phy_reconfig(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_direct(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_soc_sv_unit(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_soc(fast)
+# Loading work.xaui_monitor(fast)
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.pll[0].<protected>.<protected>.<protected>.stratixv_atx_pll_encrypted_inst.<protected>.<protected>.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.pll[0].<protected>.<protected>.<protected>.stratixv_atx_pll_encrypted_inst.<protected>.<protected>.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# [alt_xcvr_reconfig_soc.v] Full model disabled
+#             33157800Sending data
+# Break key hit 
+# Simulation stop requested.
+vlog ../xaui_phy_top_tb.v +incdir+../
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module xaui_phy_top_tb
+# 
+# Top level modules:
+# 	xaui_phy_top_tb
+restart -f; run -a
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.xaui_phy_top_tb(fast)
+# Loading work.xaui_phy(fast)
+# Loading sv_std.std
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram_body(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram_body(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_avmm_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_atx_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.altera_generic_pll_functions(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.altera_lnsim_functions(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_aux(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_rx_buf(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_channel_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_cdr(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_pll(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_rx_deser(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_cdr_refclk_select_mux(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_ser(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_buf(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_rx_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_rx_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_common_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_tx_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_tx_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_common_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__3)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__3)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altera_std_synchronizer(fast)
+# Loading work.xaui_phy_reconfig(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_direct(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_soc_sv_unit(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_soc(fast)
+# Loading work.xaui_monitor(fast)
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.pll[0].<protected>.<protected>.<protected>.stratixv_atx_pll_encrypted_inst.<protected>.<protected>.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.pll[0].<protected>.<protected>.<protected>.stratixv_atx_pll_encrypted_inst.<protected>.<protected>.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# [alt_xcvr_reconfig_soc.v] Full model disabled
+#             33157800Sending data
+# Break key hit 
+# Simulation stop requested.
+
+vlog ../xaui_phy_top_tb.v +incdir+../
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module xaui_phy_top_tb
+# 
+# Top level modules:
+# 	xaui_phy_top_tb
+restart -f; run -a
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.xaui_phy_top_tb(fast)
+# Loading work.xaui_phy(fast)
+# Loading sv_std.std
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram_body(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altsyncram_body(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_avmm_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_atx_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.altera_generic_pll_functions(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.altera_lnsim_functions(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_aux(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_rx_buf(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_channel_pll(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_cdr(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_lnsim_ver.generic_pll(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_rx_deser(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_cdr_refclk_select_mux(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_ser(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_buf(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_pma_tx_cgb(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_rx_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_rx_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_common_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_tx_pld_pcs_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_tx_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_common_pcs_pma_interface(fast)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__1)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__2)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_tx_pcs(fast__3)
+# Loading ../xaui_phy_sim/mentor/libraries/stratixv_hssi_ver.stratixv_hssi_8g_rx_pcs(fast__3)
+# Loading ../xaui_phy_sim/mentor/libraries/altera_mf_ver.altera_std_synchronizer(fast)
+# Loading work.xaui_phy_reconfig(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_direct(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_soc_sv_unit(fast)
+# Loading ../xaui_phy_reconfig_sim/mentor/libraries/xaui_phy_reconfig.alt_xcvr_reconfig_soc(fast)
+# Loading work.xaui_monitor(fast)
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.pll[0].<protected>.<protected>.<protected>.stratixv_atx_pll_encrypted_inst.<protected>.<protected>.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.pll[0].<protected>.<protected>.<protected>.stratixv_atx_pll_encrypted_inst.<protected>.<protected>.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[0].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[1].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[2].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_rx_buf : simulation model silicon_rev = "reve"
+# Info: =================================================
+# Info:           Generic CDR Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk0_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = xaui_phy_top_tb.xaui_phy.xaui_phy_inst.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.<protected>.sv_xcvr_native_insts[0].<protected>.<protected>.<protected>.<protected>.<protected>.rx_pmas[3].<protected>.<protected>.stratixv_channel_pll_encrypted_inst.<protected>.<protected>.inst_cdr_clk90_pcie_00.no_need_to_gen
+# Info: reference_clock_frequency = 156.25 MHz
+# Info: output_clock_frequency = 1562.500000 MHz
+# Info: phase_shift = 159 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 320.000000
+# Info: output_clock_low_period = 320.000000
+# module stratixv_hssi_pma_rx_deser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_cdr_refclk_select_mux : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_cgb : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_ser : simulation model silicon_rev = "reve"
+# module stratixv_hssi_pma_tx_buf : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_rx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_tx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_8g_rx_pcs : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pld_pcs_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_tx_pcs_pma_interface : simulation model silicon_rev = "reve"
+# module stratixv_hssi_common_pcs_pma_interface : simulation model silicon_rev = "reve"
+# [alt_xcvr_reconfig_soc.v] Full model disabled
+#             33157800Sending data
+# Break key hit 
+# Break at an unknown location
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /share/jinz/Altera/StratixV_Q14.1/functional/wave.do

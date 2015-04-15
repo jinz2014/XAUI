@@ -1,0 +1,1375 @@
+# do msim_setup.tcl 
+# xaui_phy_reconfig
+# ./../
+# /share/jinz/Quartus14.1/quartus/
+# Copying /usr/local/3rdparty/mentor/modelsim10.1/modeltech/linux_x86_64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /usr/local/3rdparty/mentor/modelsim10.1/modeltech/linux_x86_64/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# [exec] file_copy 
+# List Of Command Line Aliases 
+# 
+# file_copy                     -- Copy ROM/RAM files to simulation directory 
+# 
+# dev_com                       -- Compile device library files 
+# 
+# com                           -- Compile the design files in correct order 
+# 
+# elab                          -- Elaborate top level design 
+# 
+# elab_debug                    -- Elaborate the top level design with novopt option 
+# 
+# ld                            -- Compile all the design files and elaborate the top level design 
+# 
+# ld_debug                      -- Compile all the design files and elaborate the top level design with -novopt 
+# 
+# 
+# 
+# List Of Variables 
+# 
+# TOP_LEVEL_NAME                -- Top level module name. 
+# 
+# SYSTEM_INSTANCE_NAME          -- Instantiated system module name inside top level module. 
+# 
+# QSYS_SIMDIR                   -- Qsys base simulation directory. 
+# 
+# QUARTUS_INSTALL_DIR           -- Quartus installation directory. 
+#  
+# [exec] dev_com 
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_HIGH
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+# -- Compiling module lpm_ff
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
+# 
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module oper_add
+# -- Compiling module oper_addsub
+# -- Compiling module mux21
+# -- Compiling module io_buf_tri
+# -- Compiling module io_buf_opdrn
+# -- Compiling module oper_mult
+# -- Compiling module tri_bus
+# -- Compiling module oper_div
+# -- Compiling module oper_mod
+# -- Compiling module oper_left_shift
+# -- Compiling module oper_right_shift
+# -- Compiling module oper_rotate_left
+# -- Compiling module oper_rotate_right
+# -- Compiling module oper_less_than
+# -- Compiling module oper_mux
+# -- Compiling module oper_selector
+# -- Compiling module oper_decoder
+# -- Compiling module oper_bus_mux
+# -- Compiling module oper_latch
+# 
+# Top level modules:
+# 	oper_add
+# 	oper_addsub
+# 	mux21
+# 	io_buf_tri
+# 	io_buf_opdrn
+# 	oper_mult
+# 	tri_bus
+# 	oper_div
+# 	oper_mod
+# 	oper_left_shift
+# 	oper_right_shift
+# 	oper_rotate_left
+# 	oper_rotate_right
+# 	oper_less_than
+# 	oper_mux
+# 	oper_selector
+# 	oper_decoder
+# 	oper_bus_mux
+# 	oper_latch
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package altera_lnsim_functions
+# -- Compiling package altera_generic_pll_functions
+# -- Compiling module generic_pll
+# -- Importing package altera_lnsim_functions
+# -- Importing package altera_generic_pll_functions
+# -- Compiling module generic_cdr
+# -- Compiling module common_28nm_ram_pulse_generator
+# -- Compiling module common_28nm_ram_register
+# -- Compiling module common_28nm_ram_block
+# -- Compiling module generic_m20k
+# -- Compiling module generic_m10k
+# -- Compiling module common_28nm_mlab_cell_pulse_generator
+# -- Compiling module common_28nm_mlab_latch
+# -- Compiling module common_28nm_mlab_cell_core
+# -- Compiling module common_porta_latches
+# -- Compiling module generic_28nm_hp_mlab_cell_impl
+# -- Compiling module common_porta_registers
+# -- Compiling module generic_28nm_lc_mlab_cell_impl
+# -- Compiling module generic_mux
+# -- Compiling module generic_device_pll
+# -- Compiling module altera_mult_add
+# -- Compiling module altera_mult_add_rtl
+# -- Compiling module ama_signed_extension_function
+# -- Compiling module ama_dynamic_signed_function
+# -- Compiling module ama_register_function
+# -- Compiling module ama_register_with_ext_function
+# -- Compiling module ama_data_split_reg_ext_function
+# -- Compiling module ama_coef_reg_ext_function
+# -- Compiling module ama_adder_function
+# -- Compiling module ama_multiplier_function
+# -- Compiling module ama_preadder_function
+# -- Compiling module ama_chainout_adder_accumulator_function
+# -- Compiling module ama_systolic_adder_function
+# -- Compiling module ama_scanchain
+# -- Compiling module ama_latency_function
+# -- Compiling module altera_pll_reconfig_tasks
+# -- Compiling module altera_syncram
+# -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+# -- Compiling module altera_stratixv_pll
+# -- Compiling module altera_arriav_pll
+# -- Compiling module altera_arriavgz_pll
+# -- Compiling module altera_cyclonev_pll
+# -- Compiling module altera_pll
+# -- Compiling module dps_extra_kick
+# -- Compiling module dprio_init
+# -- Compiling module dps_pulse_gen
+# -- Compiling module twentynm_iopll_ip
+# -- Compiling module altera_pll_dps_lcell_comb
+# 
+# Top level modules:
+# 	generic_cdr
+# 	generic_m20k
+# 	generic_m10k
+# 	common_porta_latches
+# 	generic_28nm_hp_mlab_cell_impl
+# 	generic_28nm_lc_mlab_cell_impl
+# 	generic_mux
+# 	generic_device_pll
+# 	altera_mult_add
+# 	altera_pll_reconfig_tasks
+# 	altera_syncram
+# 	altera_pll
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling UDP STRATIXV_PRIM_DFFE
+# -- Compiling UDP STRATIXV_PRIM_DFFEAS
+# -- Compiling UDP STRATIXV_PRIM_DFFEAS_HIGH
+# -- Compiling module stratixv_dffe
+# -- Compiling module stratixv_mux21
+# -- Compiling module stratixv_mux41
+# -- Compiling module stratixv_and1
+# -- Compiling module stratixv_and16
+# -- Compiling module stratixv_bmux21
+# -- Compiling module stratixv_b17mux21
+# -- Compiling module stratixv_nmux21
+# -- Compiling module stratixv_b5mux21
+# -- Compiling module stratixv_ff
+# -- Compiling module stratixv_lcell_comb
+# -- Compiling module stratixv_routing_wire
+# -- Compiling module stratixv_ram_block
+# -- Compiling module stratixv_mlab_cell
+# -- Compiling module stratixv_io_ibuf
+# -- Compiling module stratixv_io_obuf
+# -- Compiling module stratixv_ddio_out
+# -- Compiling module stratixv_ddio_oe
+# -- Compiling module stratixv_ddio_in
+# -- Compiling module stratixv_io_pad
+# -- Compiling module stratixv_pseudo_diff_out
+# -- Compiling module stratixv_bias_logic
+# -- Compiling module stratixv_bias_generator
+# -- Compiling module stratixv_bias_block
+# -- Compiling module stratixv_mac
+# -- Compiling module stratixv_clk_phase_select
+# -- Compiling module stratixv_clkena
+# -- Compiling module stratixv_clkselect
+# -- Compiling module stratixv_delay_chain
+# -- Compiling module stratixv_dll_offset_ctrl
+# -- Compiling module stratixv_dll
+# -- Compiling module stratixv_dqs_config
+# -- Compiling module stratixv_dqs_delay_chain
+# -- Compiling module stratixv_dqs_enable_ctrl
+# -- Compiling module stratixv_duty_cycle_adjustment
+# -- Compiling module stratixv_fractional_pll
+# -- Compiling module stratixv_pll_dll_output
+# -- Compiling module stratixv_pll_dpa_output
+# -- Compiling module stratixv_pll_extclk_output
+# -- Compiling module stratixv_pll_lvds_output
+# -- Compiling module stratixv_pll_output_counter
+# -- Compiling module stratixv_pll_reconfig
+# -- Compiling module stratixv_pll_refclk_select
+# -- Compiling module stratixv_half_rate_input
+# -- Compiling module stratixv_input_phase_alignment
+# -- Compiling module stratixv_io_clock_divider
+# -- Compiling module stratixv_io_config
+# -- Compiling module stratixv_leveling_delay_chain
+# -- Compiling module stratixv_lvds_rx
+# -- Compiling module stratixv_lvds_tx
+# -- Compiling module stratixv_output_alignment
+# -- Compiling module stratixv_termination_logic
+# -- Compiling module stratixv_termination
+# -- Compiling module stratixv_asmiblock
+# -- Compiling module stratixv_chipidblock
+# -- Compiling module stratixv_controller
+# -- Compiling module stratixv_crcblock
+# -- Compiling module stratixv_jtag
+# -- Compiling module stratixv_prblock
+# -- Compiling module stratixv_rublock
+# -- Compiling module stratixv_tsdblock
+# -- Compiling module stratixv_read_fifo
+# -- Compiling module stratixv_read_fifo_read_enable
+# -- Compiling module stratixv_phy_clkbuf
+# -- Compiling module stratixv_oscillator
+# 
+# Top level modules:
+# 	stratixv_dffe
+# 	stratixv_mux41
+# 	stratixv_and1
+# 	stratixv_and16
+# 	stratixv_bmux21
+# 	stratixv_b17mux21
+# 	stratixv_nmux21
+# 	stratixv_b5mux21
+# 	stratixv_ff
+# 	stratixv_lcell_comb
+# 	stratixv_routing_wire
+# 	stratixv_ram_block
+# 	stratixv_mlab_cell
+# 	stratixv_io_ibuf
+# 	stratixv_io_obuf
+# 	stratixv_ddio_out
+# 	stratixv_ddio_oe
+# 	stratixv_ddio_in
+# 	stratixv_io_pad
+# 	stratixv_pseudo_diff_out
+# 	stratixv_bias_block
+# 	stratixv_mac
+# 	stratixv_clk_phase_select
+# 	stratixv_clkena
+# 	stratixv_clkselect
+# 	stratixv_delay_chain
+# 	stratixv_dll_offset_ctrl
+# 	stratixv_dll
+# 	stratixv_dqs_config
+# 	stratixv_dqs_delay_chain
+# 	stratixv_dqs_enable_ctrl
+# 	stratixv_duty_cycle_adjustment
+# 	stratixv_fractional_pll
+# 	stratixv_pll_dll_output
+# 	stratixv_pll_dpa_output
+# 	stratixv_pll_extclk_output
+# 	stratixv_pll_lvds_output
+# 	stratixv_pll_output_counter
+# 	stratixv_pll_reconfig
+# 	stratixv_pll_refclk_select
+# 	stratixv_half_rate_input
+# 	stratixv_input_phase_alignment
+# 	stratixv_io_clock_divider
+# 	stratixv_io_config
+# 	stratixv_leveling_delay_chain
+# 	stratixv_lvds_rx
+# 	stratixv_lvds_tx
+# 	stratixv_output_alignment
+# 	stratixv_termination_logic
+# 	stratixv_termination
+# 	stratixv_asmiblock
+# 	stratixv_chipidblock
+# 	stratixv_controller
+# 	stratixv_crcblock
+# 	stratixv_jtag
+# 	stratixv_prblock
+# 	stratixv_rublock
+# 	stratixv_tsdblock
+# 	stratixv_read_fifo
+# 	stratixv_read_fifo_read_enable
+# 	stratixv_phy_clkbuf
+# 	stratixv_oscillator
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module stratixv_channel_pll
+# -- Compiling module stratixv_hssi_pma_aux
+# -- Compiling module stratixv_hssi_avmm_interface
+# -- Compiling module stratixv_hssi_aux_clock_div
+# -- Compiling module stratixv_hssi_10g_rx_pcs
+# -- Compiling module stratixv_hssi_10g_tx_pcs
+# -- Compiling module stratixv_hssi_8g_pcs_aggregate
+# -- Compiling module stratixv_hssi_8g_rx_pcs
+# -- Compiling module stratixv_hssi_8g_tx_pcs
+# -- Compiling module stratixv_hssi_common_pcs_pma_interface
+# -- Compiling module stratixv_hssi_common_pld_pcs_interface
+# -- Compiling module stratixv_hssi_gen3_rx_pcs
+# -- Compiling module stratixv_hssi_gen3_tx_pcs
+# -- Compiling module stratixv_hssi_pipe_gen1_2
+# -- Compiling module stratixv_hssi_pipe_gen3
+# -- Compiling module stratixv_hssi_pma_cdr_att
+# -- Compiling module stratixv_hssi_pma_deser_att
+# -- Compiling module stratixv_hssi_pma_rx_att
+# -- Compiling module stratixv_hssi_pma_rx_buf
+# -- Compiling module stratixv_hssi_pma_rx_deser
+# -- Compiling module stratixv_hssi_pma_ser_att
+# -- Compiling module stratixv_hssi_pma_tx_att
+# -- Compiling module stratixv_hssi_pma_tx_buf
+# -- Compiling module stratixv_hssi_pma_tx_cgb
+# -- Compiling module stratixv_hssi_pma_tx_ser
+# -- Compiling module stratixv_hssi_rx_pcs_pma_interface
+# -- Compiling module stratixv_hssi_rx_pld_pcs_interface
+# -- Compiling module stratixv_hssi_tx_pcs_pma_interface
+# -- Compiling module stratixv_hssi_tx_pld_pcs_interface
+# -- Compiling module stratixv_hssi_refclk_divider
+# -- Compiling module stratixv_hssi_pma_cdr_refclk_select_mux
+# -- Compiling module stratixv_hssi_pma_lc_refclk_select_mux
+# -- Compiling module stratixv_atx_pll
+# 
+# Top level modules:
+# 	stratixv_channel_pll
+# 	stratixv_hssi_pma_aux
+# 	stratixv_hssi_avmm_interface
+# 	stratixv_hssi_aux_clock_div
+# 	stratixv_hssi_10g_rx_pcs
+# 	stratixv_hssi_10g_tx_pcs
+# 	stratixv_hssi_8g_pcs_aggregate
+# 	stratixv_hssi_8g_rx_pcs
+# 	stratixv_hssi_8g_tx_pcs
+# 	stratixv_hssi_common_pcs_pma_interface
+# 	stratixv_hssi_common_pld_pcs_interface
+# 	stratixv_hssi_gen3_rx_pcs
+# 	stratixv_hssi_gen3_tx_pcs
+# 	stratixv_hssi_pipe_gen1_2
+# 	stratixv_hssi_pipe_gen3
+# 	stratixv_hssi_pma_cdr_att
+# 	stratixv_hssi_pma_deser_att
+# 	stratixv_hssi_pma_rx_att
+# 	stratixv_hssi_pma_rx_buf
+# 	stratixv_hssi_pma_rx_deser
+# 	stratixv_hssi_pma_ser_att
+# 	stratixv_hssi_pma_tx_att
+# 	stratixv_hssi_pma_tx_buf
+# 	stratixv_hssi_pma_tx_cgb
+# 	stratixv_hssi_pma_tx_ser
+# 	stratixv_hssi_rx_pcs_pma_interface
+# 	stratixv_hssi_rx_pld_pcs_interface
+# 	stratixv_hssi_tx_pcs_pma_interface
+# 	stratixv_hssi_tx_pld_pcs_interface
+# 	stratixv_hssi_refclk_divider
+# 	stratixv_hssi_pma_cdr_refclk_select_mux
+# 	stratixv_hssi_pma_lc_refclk_select_mux
+# 	stratixv_atx_pll
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# ** Warning: /share/jinz/Quartus14.1/quartus//eda/sim_lib/mentor/stratixv_pcie_hip_atoms_ncrypt.v(38): in protected region
+# ** Warning: /share/jinz/Quartus14.1/quartus//eda/sim_lib/mentor/stratixv_pcie_hip_atoms_ncrypt.v(38): in protected region
+# ** Warning: /share/jinz/Quartus14.1/quartus//eda/sim_lib/mentor/stratixv_pcie_hip_atoms_ncrypt.v(38): in protected region
+# ** Warning: /share/jinz/Quartus14.1/quartus//eda/sim_lib/mentor/stratixv_pcie_hip_atoms_ncrypt.v(38): in protected region
+# ** Warning: /share/jinz/Quartus14.1/quartus//eda/sim_lib/mentor/stratixv_pcie_hip_atoms_ncrypt.v(38): in protected region
+# ** Warning: /share/jinz/Quartus14.1/quartus//eda/sim_lib/mentor/stratixv_pcie_hip_atoms_ncrypt.v(38): in protected region
+# ** Warning: /share/jinz/Quartus14.1/quartus//eda/sim_lib/mentor/stratixv_pcie_hip_atoms_ncrypt.v(38): in protected region
+# ** Warning: /share/jinz/Quartus14.1/quartus//eda/sim_lib/mentor/stratixv_pcie_hip_atoms_ncrypt.v(38): in protected region
+# ** Warning: /share/jinz/Quartus14.1/quartus//eda/sim_lib/mentor/stratixv_pcie_hip_atoms_ncrypt.v(38): in protected region
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module stratixv_hssi_gen3_pcie_hip
+# 
+# Top level modules:
+# 	stratixv_hssi_gen3_pcie_hip
+# [exec] com 
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package altera_xcvr_functions
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package sv_xcvr_h
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_resync
+# 
+# Top level modules:
+# 	alt_xcvr_resync
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package alt_xcvr_reconfig_h
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package sv_xcvr_dfe_cal_sweep_h
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cal_seq
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cal_seq
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xreconf_cif
+# 
+# Top level modules:
+# 	alt_xreconf_cif
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xreconf_uif
+# 
+# Top level modules:
+# 	alt_xreconf_uif
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xreconf_basic_acq
+# 
+# Top level modules:
+# 	alt_xreconf_basic_acq
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_analog
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_analog
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_analog_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_analog_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xreconf_analog_datactrl
+# 
+# Top level modules:
+# 	alt_xreconf_analog_datactrl
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xreconf_analog_rmw
+# 
+# Top level modules:
+# 	alt_xreconf_analog_rmw
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xreconf_analog_ctrlsm
+# 
+# Top level modules:
+# 	alt_xreconf_analog_ctrlsm
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_offset_cancellation
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_offset_cancellation
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_offset_cancellation_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_offset_cancellation_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_eyemon
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_eyemon
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_eyemon_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_eyemon_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_eyemon_ctrl_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_eyemon_ctrl_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_eyemon_ber_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_eyemon_ber_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module ber_reader_dcfifo
+# 
+# Top level modules:
+# 	ber_reader_dcfifo
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module step_to_mon_sv
+# 
+# Top level modules:
+# 	step_to_mon_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module mon_to_step_sv
+# 
+# Top level modules:
+# 	mon_to_step_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_reg_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_reg_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_cal_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_cal_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_cal_sweep_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_cal_sweep_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_cal_sweep_datapath_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_oc_cal_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_oc_cal_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_pi_phase_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_pi_phase_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_step_to_mon_en_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_step_to_mon_en_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_adapt_tap_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_adapt_tap_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_ctrl_mux_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_ctrl_mux_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_local_reset_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_local_reset_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_cal_sim_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_cal_sim_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dfe_adapt_tap_sim_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dfe_adapt_tap_sim_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_adce
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_adce
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_adce_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_adce_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package alt_xcvr_reconfig_adce_datactrl_sv_sv_unit
+# -- Compiling module alt_xcvr_reconfig_adce_datactrl_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_adce_datactrl_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd_sv
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd_sv
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd_cal
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd_cal
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd_control
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd_control
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd_datapath
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd_datapath
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd_pll_reset
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd_pll_reset
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd_eye_width
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd_eye_width
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd_align_clk
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd_align_clk
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd_get_sum
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd_get_sum
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_dcd_cal_sim_model
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_dcd_cal_sim_model
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_mif
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_mif
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xcvr_reconfig_mif
+# 
+# Top level modules:
+# 	sv_xcvr_reconfig_mif
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xcvr_reconfig_mif_ctrl
+# 
+# Top level modules:
+# 	sv_xcvr_reconfig_mif_ctrl
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xcvr_reconfig_mif_avmm
+# 
+# Top level modules:
+# 	sv_xcvr_reconfig_mif_avmm
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_pll
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_pll
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xcvr_reconfig_pll
+# 
+# Top level modules:
+# 	sv_xcvr_reconfig_pll
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xcvr_reconfig_pll_ctrl
+# 
+# Top level modules:
+# 	sv_xcvr_reconfig_pll_ctrl
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package alt_xcvr_reconfig_soc_sv_unit
+# -- Compiling module alt_xcvr_reconfig_soc
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_soc
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package alt_xcvr_reconfig_cpu_ram_sv_unit
+# -- Compiling module alt_xcvr_reconfig_cpu_ram
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_ram
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_direct
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_direct
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xrbasic_l2p_addr
+# 
+# Top level modules:
+# 	sv_xrbasic_l2p_addr
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xrbasic_l2p_ch
+# 
+# Top level modules:
+# 	sv_xrbasic_l2p_ch
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xrbasic_l2p_rom
+# 
+# Top level modules:
+# 	sv_xrbasic_l2p_rom
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xrbasic_lif_csr
+# 
+# Top level modules:
+# 	sv_xrbasic_lif_csr
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_xrbasic_lif
+# 
+# Top level modules:
+# 	sv_xrbasic_lif
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package sv_xcvr_reconfig_basic_sv_unit
+# -- Compiling module sv_xcvr_reconfig_basic
+# 
+# Top level modules:
+# 	sv_xcvr_reconfig_basic
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_arbiter_acq
+# 
+# Top level modules:
+# 	alt_arbiter_acq
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_basic
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_basic
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_arbiter
+# 
+# Top level modules:
+# 	alt_xcvr_arbiter
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_m2s
+# 
+# Top level modules:
+# 	alt_xcvr_m2s
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_wait_generate
+# 
+# Top level modules:
+# 	altera_wait_generate
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module csr_mux
+# -- Compiling module csr_indexed_write_mux
+# -- Compiling module csr_indexed_read_only_reg
+# 
+# Top level modules:
+# 	csr_indexed_write_mux
+# 	csr_indexed_read_only_reg
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module sv_reconfig_bundle_to_basic
+# 
+# Top level modules:
+# 	sv_reconfig_bundle_to_basic
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_reconfig_cpu_test_bench
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_reconfig_cpu_test_bench
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_reconfig_cpu_register_bank_a_module
+# -- Compiling module alt_xcvr_reconfig_cpu_reconfig_cpu_register_bank_b_module
+# -- Compiling module alt_xcvr_reconfig_cpu_reconfig_cpu
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_reconfig_cpu
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_irq_mapper
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_irq_mapper
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: ./..//alt_xcvr_reconfig/altera_merlin_slave_agent.sv(479): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./..//alt_xcvr_reconfig/altera_merlin_slave_agent.sv(480): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./..//alt_xcvr_reconfig/altera_merlin_slave_agent.sv(481): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./..//alt_xcvr_reconfig/altera_merlin_slave_agent.sv(482): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_router_default_decode
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_router
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_router_001_default_decode
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_router_001
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_router_002_default_decode
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_router_002
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_router_003_default_decode
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_router_003
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_router_003
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_demux_001
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux_001
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_cmd_mux_001
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	alt_xcvr_reconfig_cpu_mm_interconnect_0_rsp_mux_001
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module xaui_phy_reconfig
+# 
+# Top level modules:
+# 	xaui_phy_reconfig
