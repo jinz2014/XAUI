@@ -46,24 +46,23 @@ wire        pll_powerdown;
 wire        mcgb_rst = reset;
 
 
-initial 
-	begin
-		reset = 1'b0;
-		#10;
-		#(`xaui_ref_clk*10) reset = 1'b1;
-		#(`xaui_ref_clk*50) reset = 1'b0;
-	end
+initial begin
+  reset = 1'b0;
+  #10;
+  #(`xaui_ref_clk*10) reset = 1'b1;
+  #(`xaui_ref_clk*50) reset = 1'b0;
+end
 
-	initial begin : xgmii_clock
-		ref_clk = 1'b0;
-    forever
-		  #(`xaui_ref_clk/2) ref_clk = ~ref_clk;
-	end
+initial begin : xgmii_clock
+  ref_clk = 1'b0;
+  forever
+   #(`xaui_ref_clk/2) ref_clk = ~ref_clk;
+end
 
-	initial begin : phy_mgmt_clock
-		sys_clk = 1'b0;
-    forever
-      #(`system_clk/2) sys_clk <= ~sys_clk;
+initial begin : phy_mgmt_clock
+  sys_clk = 1'b0;
+  forever
+    #(`system_clk/2) sys_clk <= ~sys_clk;
   end
 
 
@@ -118,7 +117,6 @@ initial
     fd4 = $fopen("Serial_RX_IN.log");
   end
 
-	
 // Management interface
 assign phy_mgmt_read        = 0;
 assign phy_mgmt_write       = 0;
@@ -128,15 +126,15 @@ assign phy_mgmt_clk_reset   = reset;
 //--------------------------------------------
 // Altera's ATXPLL core
 //--------------------------------------------
-	atxpll atxpll (
-		.pll_powerdown     (pll_powerdown),     //     pll_powerdown.pll_powerdown
-		.pll_refclk0       (sys_clk),       //       pll_refclk0.clk
-		.tx_serial_clk     (tx_serial_clk),     //     tx_serial_clk.clk
-		.pll_locked        (pll_locked),        //        pll_locked.pll_locked
-		.pll_cal_busy      (pll_cal_busy),      //      pll_cal_busy.pll_cal_busy
-		.mcgb_rst          (mcgb_rst),          //          mcgb_rst.mcgb_rst
-		.tx_bonding_clocks (tx_bonding_clocks)  // tx_bonding_clocks.clk
-	);
+atxpll atxpll (
+  .pll_powerdown     (pll_powerdown),     //     pll_powerdown.pll_powerdown
+  .pll_refclk0       (sys_clk),           //       pll_refclk0.clk
+  .tx_serial_clk     (tx_serial_clk),     //     tx_serial_clk.clk
+  .pll_locked        (pll_locked),        //        pll_locked.pll_locked
+  .pll_cal_busy      (pll_cal_busy),      //      pll_cal_busy.pll_cal_busy
+  .mcgb_rst          (mcgb_rst),          //          mcgb_rst.mcgb_rst
+  .tx_bonding_clocks (tx_bonding_clocks)  // tx_bonding_clocks.clk
+);
 
 //--------------------------------------------
 // Altera's XAUI core
@@ -145,9 +143,9 @@ assign phy_mgmt_clk_reset   = reset;
 
 xaui_phy dut (
   .pll_ref_clk           (ref_clk),  // i
-	.pll_cal_busy_i        (pll_cal_busy),
-	.pll_locked_i          (pll_locked),
-	.pll_powerdown_o       (pll_powerdown),   
+  .pll_cal_busy_i        (pll_cal_busy),
+  .pll_locked_i          (pll_locked),
+  .pll_powerdown_o       (pll_powerdown),   
   .tx_bonding_clocks     (tx_bonding_clocks),   
 
   .xgmii_tx_clk          (ref_clk),  // i
@@ -155,25 +153,25 @@ xaui_phy dut (
 
   // o
   .xgmii_rx_dc           ({ 
-	                          xgmii_rx_dataoutk[7], xgmii_rx_dataout[63:56],
-	                          xgmii_rx_dataoutk[6], xgmii_rx_dataout[55:48],  
-	                          xgmii_rx_dataoutk[5], xgmii_rx_dataout[47:40],  
-	                          xgmii_rx_dataoutk[4], xgmii_rx_dataout[39:32],  
-	                          xgmii_rx_dataoutk[3], xgmii_rx_dataout[31:24],  
-	                          xgmii_rx_dataoutk[2], xgmii_rx_dataout[23:16],  
-	                          xgmii_rx_dataoutk[1], xgmii_rx_dataout[15:8],   
+                            xgmii_rx_dataoutk[7], xgmii_rx_dataout[63:56],
+                            xgmii_rx_dataoutk[6], xgmii_rx_dataout[55:48],  
+                            xgmii_rx_dataoutk[5], xgmii_rx_dataout[47:40],  
+                            xgmii_rx_dataoutk[4], xgmii_rx_dataout[39:32],  
+                            xgmii_rx_dataoutk[3], xgmii_rx_dataout[31:24],  
+                            xgmii_rx_dataoutk[2], xgmii_rx_dataout[23:16],  
+                            xgmii_rx_dataoutk[1], xgmii_rx_dataout[15:8],   
                             xgmii_rx_dataoutk[0], xgmii_rx_dataout[7:0]
                           }),		  
 
   // i
-	.xgmii_tx_dc           ({ 
-	                          xgmii_tx_dataink[7], xgmii_tx_datain[63:56],
-	                          xgmii_tx_dataink[6], xgmii_tx_datain[55:48],  
-	                          xgmii_tx_dataink[5], xgmii_tx_datain[47:40],  
-	                          xgmii_tx_dataink[4], xgmii_tx_datain[39:32],  
-	                          xgmii_tx_dataink[3], xgmii_tx_datain[31:24],  
-	                          xgmii_tx_dataink[2], xgmii_tx_datain[23:16],  
-	                          xgmii_tx_dataink[1], xgmii_tx_datain[15:8],   
+  .xgmii_tx_dc           ({ 
+                            xgmii_tx_dataink[7], xgmii_tx_datain[63:56],
+                            xgmii_tx_dataink[6], xgmii_tx_datain[55:48],  
+                            xgmii_tx_dataink[5], xgmii_tx_datain[47:40],  
+                            xgmii_tx_dataink[4], xgmii_tx_datain[39:32],  
+                            xgmii_tx_dataink[3], xgmii_tx_datain[31:24],  
+                            xgmii_tx_dataink[2], xgmii_tx_datain[23:16],  
+                            xgmii_tx_dataink[1], xgmii_tx_datain[15:8],   
                             xgmii_tx_dataink[0], xgmii_tx_datain[7:0]
                           }),
   .rx_ready              (xgmii_rx_ready),
@@ -263,7 +261,7 @@ always @ (negedge xgmii_rx_clk) begin
 end
 
 //--------------------------------------------------------------
-// xaui tx serial monitor
+// XAUI TX serial monitor
 //--------------------------------------------------------------
 
 wire [31:0] xaui_tx_pdata;
@@ -294,7 +292,7 @@ end
 
 
 //--------------------------------------------------------------
-// xaui rx serial monitor
+// XAUI RX serial monitor
 //--------------------------------------------------------------
 wire [31:0] xaui_rx_pdata;
 wire [ 3:0] xaui_rx_is_k;
