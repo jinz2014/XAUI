@@ -1,0 +1,111 @@
+# do msim_setup.tcl 
+# atxpll
+# ./../
+# /share/jinz/Quartus14.1/quartus/
+# Copying /usr/local/3rdparty/mentor/modelsim10.1/modeltech/linux_x86_64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /usr/local/3rdparty/mentor/modelsim10.1/modeltech/linux_x86_64/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# [exec] file_copy 
+# List Of Command Line Aliases 
+# 
+# file_copy                     -- Copy ROM/RAM files to simulation directory 
+# 
+# dev_com                       -- Compile device library files 
+# 
+# com                           -- Compile the design files in correct order 
+# 
+# elab                          -- Elaborate top level design 
+# 
+# elab_debug                    -- Elaborate the top level design with novopt option 
+# 
+# ld                            -- Compile all the design files and elaborate the top level design 
+# 
+# ld_debug                      -- Compile all the design files and elaborate the top level design with -novopt 
+# 
+# 
+# 
+# List Of Variables 
+# 
+# TOP_LEVEL_NAME                -- Top level module name. 
+# 
+# SYSTEM_INSTANCE_NAME          -- Instantiated system module name inside top level module. 
+# 
+# QSYS_SIMDIR                   -- Qsys base simulation directory. 
+# 
+# QUARTUS_INSTALL_DIR           -- Quartus installation directory. 
+#  
+# [exec] com 
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module twentynm_xcvr_avmm
+# 
+# Top level modules:
+# 	twentynm_xcvr_avmm
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_resync
+# 
+# Top level modules:
+# 	alt_xcvr_resync
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling package a10_avmm_h
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_native_avmm_nf
+# 
+# Top level modules:
+# 	alt_xcvr_native_avmm_nf
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module altera_xcvr_atx_pll_a10
+# 
+# Top level modules:
+# 	altera_xcvr_atx_pll_a10
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module a10_xcvr_atx_pll
+# 
+# Top level modules:
+# 	a10_xcvr_atx_pll
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_pll_embedded_debug
+# 
+# Top level modules:
+# 	alt_xcvr_pll_embedded_debug
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module alt_xcvr_pll_avmm_csr
+# 
+# Top level modules:
+# 	alt_xcvr_pll_avmm_csr
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# 
+# Top level modules:
+# Model Technology ModelSim SE-64 vlog 10.1 Compiler 2011.12 Dec  5 2011
+# -- Compiling module atxpll
+# 
+# Top level modules:
+# 	atxpll

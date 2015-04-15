@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_xcvr_native_a10_141/sim/altera_xcvr_functions.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/altera_xcvr_functions.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/alt_xcvr_resync.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/alt_xcvr_resync.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/twentynm_pcs.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/twentynm_pma.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/twentynm_xcvr_avmm.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/twentynm_xcvr_native.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/twentynm_pcs.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/twentynm_pma.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/twentynm_xcvr_avmm.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/twentynm_xcvr_native.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/a10_avmm_h.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/altera_xcvr_native_a10.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/alt_xcvr_native_avmm_nf.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/alt_xcvr_native_avmm_csr.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/alt_xcvr_native_prbs_accum.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/alt_xcvr_native_embedded_debug.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/a10_avmm_h.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/altera_xcvr_native_a10.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/alt_xcvr_native_avmm_nf.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/alt_xcvr_native_avmm_csr.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/alt_xcvr_native_prbs_accum.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor/alt_xcvr_native_embedded_debug.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_native_a10_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/plain_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/mentor_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/cadence_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/synopsys_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_native_a10_141/sim/aldec_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_native_a10_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/a10_xcvr_custom_native.v"
+   type="VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   hasInlineConfiguration="true" />
+ <file
+   path="altera_xcvr_xaui_141/sim/altera_xcvr_functions.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/altera_xcvr_functions.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_pma_functions.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_pma_functions.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/altera_xcvr_xaui.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/hxaui_csr_h.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/hxaui_csr.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_mgmt2dec_phyreconfig.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_mgmt2dec_xaui.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/altera_xcvr_xaui.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/hxaui_csr_h.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/hxaui_csr.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_mgmt2dec_phyreconfig.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_mgmt2dec_xaui.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_pma_controller_tgx.v"
+   type="VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_pma_controller_tgx.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_reset_ctrl_lego.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_reset_ctrl_tgx_cdrauto.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_resync.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_reset_ctrl_lego.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_reset_ctrl_tgx_cdrauto.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_resync.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_csr_common_h.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_csr_common.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_csr_pcs8g_h.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_csr_pcs8g.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_csr_selector.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_mgmt2dec.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/altera_wait_generate.v"
+   type="VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_csr_common_h.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_csr_common.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_csr_pcs8g_h.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_csr_pcs8g.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_csr_selector.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_mgmt2dec.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/altera_wait_generate.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/altera_xcvr_reset_control.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_reset_counter.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/altera_xcvr_reset_control.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_reset_counter.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_pcs.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_reset.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_8b10b_dec.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_channel_synch.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_deskew.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_deskew_channel.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_deskew_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/altera_soft_xaui_rx_deskew_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_invalid_code_det.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_parity.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_parity_4b.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_parity_6b.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_rate_match.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_rate_match_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_rl_chk_6g.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_rx_sm.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_tx.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_tx_8b10b_enc.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_soft_xaui_tx_idle_conv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/l_modules.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/serdes_4_unit_lc_siv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/serdes_4_unit_siv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/serdes_4unit.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_pcs.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_reset.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_8b10b_dec.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_channel_synch.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_deskew.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_deskew_channel.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_deskew_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/altera_soft_xaui_rx_deskew_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_invalid_code_det.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_parity.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_parity_4b.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_parity_6b.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_rate_match.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_rate_match_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_rl_chk_6g.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_rx_sm.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_tx.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_tx_8b10b_enc.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/alt_soft_xaui_tx_idle_conv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/l_modules.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/serdes_4_unit_lc_siv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/serdes_4_unit_siv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence/serdes_4unit.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="ncsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_pcs.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_reset.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_8b10b_dec.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_channel_synch.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_deskew.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_deskew_channel.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_deskew_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/altera_soft_xaui_rx_deskew_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_invalid_code_det.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_parity.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_parity_4b.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_parity_6b.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_rate_match.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_rate_match_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_rl_chk_6g.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_rx_sm.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_tx.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_tx_8b10b_enc.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/alt_soft_xaui_tx_idle_conv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/l_modules.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/serdes_4_unit_lc_siv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/serdes_4_unit_siv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys/serdes_4unit.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="vcs" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_pcs.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_reset.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_8b10b_dec.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_channel_synch.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_deskew.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_deskew_channel.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_deskew_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/altera_soft_xaui_rx_deskew_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_invalid_code_det.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_parity.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_parity_4b.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_parity_6b.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_rate_match.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_rate_match_ram.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_rl_chk_6g.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_rx_sm.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_tx.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_tx_8b10b_enc.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/alt_soft_xaui_tx_idle_conv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/l_modules.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/serdes_4_unit_lc_siv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/serdes_4_unit_siv.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec/serdes_4unit.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="riviera" />
+ <file
+   path="altera_xcvr_xaui_141/sim/sxaui.v"
+   type="VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/sxaui.v"
+   type="VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/a10_xcvr_xaui.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/a10_xcvr_xaui.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_arbiter.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/alt_xcvr_m2s.sv"
+   type="SYSTEM_VERILOG"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_arbiter.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor/alt_xcvr_m2s.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="xaui_phy_altera_xcvr_xaui_141"
+   simulator="modelsim" />
+ <file
+   path="altera_xcvr_xaui_141/sim/plain_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/sim_script_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/mentor_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/cadence_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/synopsys_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file
+   path="altera_xcvr_xaui_141/sim/aldec_files.txt"
+   type="OTHER"
+   library="xaui_phy_altera_xcvr_xaui_141" />
+ <file path="sim/xaui_phy.v" type="VERILOG" hasInlineConfiguration="true" />
+ <topLevel name="xaui_phy" />
+ <deviceFamily name="arria10" />
+</simPackage>

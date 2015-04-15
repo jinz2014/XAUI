@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system name="$${FILENAME}">
+ <component
+   name="$${FILENAME}"
+   displayName="$${FILENAME}"
+   version="1.0"
+   description=""
+   tags="INTERNAL_COMPONENT=true"
+   categories="" />
+ <parameter name="bonusData"><![CDATA[bonusData 
+{
+   element $${FILENAME}
+   {
+   }
+   element xcvr_xaui_0
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+   }
+}
+]]></parameter>
+ <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
+ <parameter name="device" value="10AX115R4F40I3SG" />
+ <parameter name="deviceFamily" value="Arria 10" />
+ <parameter name="deviceSpeedGrade" value="3" />
+ <parameter name="fabricMode" value="QSYS" />
+ <parameter name="generateLegacySim" value="false" />
+ <parameter name="generationId" value="0" />
+ <parameter name="globalResetBus" value="false" />
+ <parameter name="hdlLanguage" value="VERILOG" />
+ <parameter name="hideFromIPCatalog" value="true" />
+ <parameter name="maxAdditionalLatency" value="1" />
+ <parameter name="projectName" value="" />
+ <parameter name="sopcBorderPoints" value="false" />
+ <parameter name="systemHash" value="0" />
+ <parameter name="testBenchDutName" value="" />
+ <parameter name="timeStamp" value="0" />
+ <parameter name="useTestBenchNamingPattern" value="false" />
+ <instanceScript></instanceScript>
+ <interface
+   name="phy_mgmt"
+   internal="xcvr_xaui_0.phy_mgmt"
+   type="avalon"
+   dir="end">
+  <port name="phy_mgmt_address" internal="phy_mgmt_address" />
+  <port name="phy_mgmt_read" internal="phy_mgmt_read" />
+  <port name="phy_mgmt_readdata" internal="phy_mgmt_readdata" />
+  <port name="phy_mgmt_write" internal="phy_mgmt_write" />
+  <port name="phy_mgmt_writedata" internal="phy_mgmt_writedata" />
+  <port name="phy_mgmt_waitrequest" internal="phy_mgmt_waitrequest" />
+ </interface>
+ <interface
+   name="phy_mgmt_clk"
+   internal="xcvr_xaui_0.phy_mgmt_clk"
+   type="clock"
+   dir="end">
+  <port name="phy_mgmt_clk" internal="phy_mgmt_clk" />
+ </interface>
+ <interface
+   name="phy_mgmt_clk_reset"
+   internal="xcvr_xaui_0.phy_mgmt_clk_reset"
+   type="reset"
+   dir="end">
+  <port name="phy_mgmt_clk_reset" internal="phy_mgmt_clk_reset" />
+ </interface>
+ <interface
+   name="pll_cal_busy_i"
+   internal="xcvr_xaui_0.pll_cal_busy_i"
+   type="conduit"
+   dir="end">
+  <port name="pll_cal_busy_i" internal="pll_cal_busy_i" />
+ </interface>
+ <interface
+   name="pll_locked_i"
+   internal="xcvr_xaui_0.pll_locked_i"
+   type="conduit"
+   dir="end">
+  <port name="pll_locked_i" internal="pll_locked_i" />
+ </interface>
+ <interface
+   name="pll_powerdown_o"
+   internal="xcvr_xaui_0.pll_powerdown_o"
+   type="conduit"
+   dir="end">
+  <port name="pll_powerdown_o" internal="pll_powerdown_o" />
+ </interface>
+ <interface
+   name="pll_ref_clk"
+   internal="xcvr_xaui_0.pll_ref_clk"
+   type="clock"
+   dir="end">
+  <port name="pll_ref_clk" internal="pll_ref_clk" />
+ </interface>
+ <interface name="reconfig" internal="xcvr_xaui_0.reconfig" />
+ <interface name="reconfig_clk" internal="xcvr_xaui_0.reconfig_clk" />
+ <interface name="reconfig_clk_reset" internal="xcvr_xaui_0.reconfig_clk_reset" />
+ <interface
+   name="rx_ready"
+   internal="xcvr_xaui_0.rx_ready"
+   type="conduit"
+   dir="end">
+  <port name="rx_ready" internal="rx_ready" />
+ </interface>
+ <interface
+   name="tx_bonding_clocks"
+   internal="xcvr_xaui_0.tx_bonding_clocks"
+   type="conduit"
+   dir="end">
+  <port name="tx_bonding_clocks" internal="tx_bonding_clocks" />
+ </interface>
+ <interface
+   name="tx_ready"
+   internal="xcvr_xaui_0.tx_ready"
+   type="conduit"
+   dir="end">
+  <port name="tx_ready" internal="tx_ready" />
+ </interface>
+ <interface
+   name="xaui_rx_serial_data"
+   internal="xcvr_xaui_0.xaui_rx_serial_data"
+   type="conduit"
+   dir="end">
+  <port name="xaui_rx_serial_data" internal="xaui_rx_serial_data" />
+ </interface>
+ <interface
+   name="xaui_tx_serial_data"
+   internal="xcvr_xaui_0.xaui_tx_serial_data"
+   type="conduit"
+   dir="end">
+  <port name="xaui_tx_serial_data" internal="xaui_tx_serial_data" />
+ </interface>
+ <interface
+   name="xgmii_rx_clk"
+   internal="xcvr_xaui_0.xgmii_rx_clk"
+   type="clock"
+   dir="start">
+  <port name="xgmii_rx_clk" internal="xgmii_rx_clk" />
+ </interface>
+ <interface
+   name="xgmii_rx_dc"
+   internal="xcvr_xaui_0.xgmii_rx_dc"
+   type="avalon_streaming"
+   dir="start">
+  <port name="xgmii_rx_dc" internal="xgmii_rx_dc" />
+ </interface>
+ <interface name="xgmii_rx_inclk" internal="xcvr_xaui_0.xgmii_rx_inclk" />
+ <interface
+   name="xgmii_tx_clk"
+   internal="xcvr_xaui_0.xgmii_tx_clk"
+   type="clock"
+   dir="end">
+  <port name="xgmii_tx_clk" internal="xgmii_tx_clk" />
+ </interface>
+ <interface
+   name="xgmii_tx_dc"
+   internal="xcvr_xaui_0.xgmii_tx_dc"
+   type="avalon_streaming"
+   dir="end">
+  <port name="xgmii_tx_dc" internal="xgmii_tx_dc" />
+ </interface>
+ <module
+   name="xcvr_xaui_0"
+   kind="altera_xcvr_xaui"
+   version="14.1"
+   enabled="1"
+   autoexport="1">
+  <parameter name="GUI_BASE_DATA_RATE" value="" />
+  <parameter name="device_family" value="Arria 10" />
+  <parameter name="dyn_reconf" value="0" />
+  <parameter name="en_dual_fifo" value="0" />
+  <parameter name="en_synce_support" value="0" />
+  <parameter name="external_pma_ctrl_reconf" value="0" />
+  <parameter name="gui_pll_type" value="CMU" />
+  <parameter name="hard_xaui_cfg">Only Hard XAUI is supported for this device.</parameter>
+  <parameter name="interface_type" value="Soft XAUI" />
+  <parameter name="mgmt_clk_in_hz" value="0" />
+  <parameter name="number_of_interfaces" value="1" />
+  <parameter name="part_trait_bd" value="NIGHTFURY5" />
+  <parameter name="pll_external_enable" value="0" />
+  <parameter name="recovered_clk_out" value="0" />
+  <parameter name="rx_common_mode" value="0.82v" />
+  <parameter name="rx_eq_ctrl" value="0" />
+  <parameter name="rx_eq_dc_gain" value="0" />
+  <parameter name="rx_termination" value="OCT_100_OHMS" />
+  <parameter name="soft_xaui_cfg">Only Soft XAUI is supported for this device.</parameter>
+  <parameter name="starting_channel_number" value="0" />
+  <parameter name="tx_preemp_pretap" value="0" />
+  <parameter name="tx_preemp_pretap_inv" value="false" />
+  <parameter name="tx_preemp_tap_1" value="0" />
+  <parameter name="tx_preemp_tap_2" value="0" />
+  <parameter name="tx_preemp_tap_2_inv" value="false" />
+  <parameter name="tx_termination" value="OCT_100_OHMS" />
+  <parameter name="tx_vod_selection" value="4" />
+  <parameter name="use_control_and_status_ports" value="0" />
+  <parameter name="use_rx_rate_match" value="0" />
+ </module>
+ <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
+ <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="FALSE" />
+ <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
+</system>

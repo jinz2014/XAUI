@@ -1,0 +1,12 @@
+./altera_xcvr_functions.sv
+./alt_xcvr_resync.sv
+./twentynm_pcs.sv
+./twentynm_pma.sv
+./twentynm_xcvr_avmm.sv
+./twentynm_xcvr_native.sv
+./a10_avmm_h.sv
+./altera_xcvr_native_a10.sv
+./alt_xcvr_native_avmm_nf.sv
+./alt_xcvr_native_avmm_csr.sv
+./alt_xcvr_native_prbs_accum.sv
+./alt_xcvr_native_embedded_debug.sv

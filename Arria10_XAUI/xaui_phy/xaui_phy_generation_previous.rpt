@@ -1,0 +1,219 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=/share/jinz/Altera/Arria10/XAUI --output-directory=/share/jinz/Altera/Arria10/XAUI/xaui_phy --file-set=SIM_VERILOG --report-file=html:/share/jinz/Altera/Arria10/XAUI/xaui_phy/xaui_phy.html --report-file=sopcinfo:/share/jinz/Altera/Arria10/XAUI/xaui_phy.sopcinfo --report-file=csv:/share/jinz/Altera/Arria10/XAUI/xaui_phy/xaui_phy.csv --report-file=spd:/share/jinz/Altera/Arria10/XAUI/xaui_phy/xaui_phy.spd --report-file=cmp:/share/jinz/Altera/Arria10/XAUI/xaui_phy/xaui_phy.cmp --report-file=sip:/share/jinz/Altera/Arria10/XAUI/xaui_phy/xaui_phy.sip --system-info=DEVICE_FAMILY="Arria 10" --system-info=DEVICE=10AX115R4F40I3SG --system-info=DEVICE_SPEEDGRADE=3 --component-file=/share/jinz/Altera/Arria10/XAUI/xaui_phy.qsys --generator=extensible --remove-qsys-generate-warning
+Progress: Loading XAUI/xaui_phy.qsys
+Progress: Reading input file
+Progress: Adding xcvr_xaui_0 [altera_xcvr_xaui 14.1]
+Progress: Parameterizing module xcvr_xaui_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: xaui_phy.xcvr_xaui_0.xgmii_rx_dc: Interface must have an associated reset
+Warning: xaui_phy.xcvr_xaui_0.xgmii_tx_dc: Interface must have an associated reset
+Warning: xaui_phy.xcvr_xaui_0.xgmii_rx_dc: xcvr_xaui_0.xgmii_rx_dc does not have an associated reset
+Warning: xaui_phy.xcvr_xaui_0.xgmii_tx_dc: xcvr_xaui_0.xgmii_tx_dc does not have an associated reset
+Warning: xaui_phy.: You have exported the interface xcvr_xaui_0.xgmii_rx_dc but not its associated reset interface.  Export associatedReset of xcvr_xaui_0.xgmii_rx_dc
+Warning: xaui_phy.: You have exported the interface xcvr_xaui_0.xgmii_tx_dc but not its associated reset interface.  Export the driver(s) of associatedReset of xcvr_xaui_0.xgmii_tx_dc
+Info: xaui_phy: "Transforming system: xaui_phy"
+Info: xaui_phy: Running transform generation_view_transform
+Info: xaui_phy: Running transform generation_view_transform took 0.002s
+Info: a10_xcvr_custom_native: Running transform generation_view_transform
+Info: a10_xcvr_custom_native: Running transform generation_view_transform took 0.001s
+Info: xaui_phy: Running transform merlin_avalon_transform
+Info: xaui_phy: Running transform merlin_avalon_transform took 0.089s
+Info: xaui_phy: "Naming system components in system: xaui_phy"
+Info: xaui_phy: "Processing generation queue"
+Info: xaui_phy: "Generating: xaui_phy"
+Info: xaui_phy: "Generating: altera_xcvr_xaui"
+Info: xcvr_xaui_0: add_fileset_file ./altera_xcvr_functions.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/altera_xcvr_functions.sv
+Info: xcvr_xaui_0: add_fileset_file ./mentor/altera_xcvr_functions.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/altera_xcvr_functions.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./alt_pma_functions.sv SYSTEM_VERILOG PATH ../../alt_pma/source/alt_pma/alt_pma_functions.sv
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_pma_functions.sv SYSTEM_VERILOG_ENCRYPT PATH ../../alt_pma/mentor/source/alt_pma/alt_pma_functions.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./altera_xcvr_xaui.sv SYSTEM_VERILOG PATH .//altera_xcvr_xaui.sv
+Info: xcvr_xaui_0: add_fileset_file ./hxaui_csr_h.sv SYSTEM_VERILOG PATH .//hxaui_csr_h.sv
+Info: xcvr_xaui_0: add_fileset_file ./hxaui_csr.sv SYSTEM_VERILOG PATH .//hxaui_csr.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_mgmt2dec_phyreconfig.sv SYSTEM_VERILOG PATH .//alt_xcvr_mgmt2dec_phyreconfig.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_mgmt2dec_xaui.sv SYSTEM_VERILOG PATH .//alt_xcvr_mgmt2dec_xaui.sv
+Info: xcvr_xaui_0: add_fileset_file ./mentor/altera_xcvr_xaui.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/altera_xcvr_xaui.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/hxaui_csr_h.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/hxaui_csr_h.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/hxaui_csr.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/hxaui_csr.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_mgmt2dec_phyreconfig.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/alt_xcvr_mgmt2dec_phyreconfig.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_mgmt2dec_xaui.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/alt_xcvr_mgmt2dec_xaui.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./alt_pma_controller_tgx.v VERILOG PATH ../../alt_pma/source/alt_pma_controller/alt_pma_controller_tgx.v
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_pma_controller_tgx.v VERILOG_ENCRYPT PATH ../../alt_pma/mentor/source/alt_pma_controller/alt_pma_controller_tgx.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./alt_reset_ctrl_lego.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_reset_ctrl_lego.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_reset_ctrl_tgx_cdrauto.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_reset_ctrl_tgx_cdrauto.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_reset_ctrl_lego.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_reset_ctrl_lego.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_reset_ctrl_tgx_cdrauto.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_reset_ctrl_tgx_cdrauto.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_resync.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_resync.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_csr_common_h.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_csr_common_h.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_csr_common.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_csr_common.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_csr_pcs8g_h.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_csr_pcs8g_h.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_csr_pcs8g.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_csr_pcs8g.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_csr_selector.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_csr_selector.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_mgmt2dec.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_mgmt2dec.sv
+Info: xcvr_xaui_0: add_fileset_file ./altera_wait_generate.v VERILOG PATH ../../altera_xcvr_generic/ctrl/altera_wait_generate.v
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_csr_common_h.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_csr_common_h.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_csr_common.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_csr_common.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_csr_pcs8g_h.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_csr_pcs8g_h.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_csr_pcs8g.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_csr_pcs8g.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_csr_selector.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_csr_selector.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_mgmt2dec.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_mgmt2dec.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/altera_wait_generate.v VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/altera_wait_generate.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./altera_xcvr_reset_control.sv SYSTEM_VERILOG PATH ../../alt_xcvr/altera_xcvr_reset_control/altera_xcvr_reset_control.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_reset_counter.sv SYSTEM_VERILOG PATH ../../alt_xcvr/altera_xcvr_reset_control/alt_xcvr_reset_counter.sv
+Info: xcvr_xaui_0: add_fileset_file ./mentor/altera_xcvr_reset_control.sv SYSTEM_VERILOG_ENCRYPT PATH ../../alt_xcvr/altera_xcvr_reset_control/mentor/altera_xcvr_reset_control.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_reset_counter.sv SYSTEM_VERILOG_ENCRYPT PATH ../../alt_xcvr/altera_xcvr_reset_control/mentor/alt_xcvr_reset_counter.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_pcs.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_pcs.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_reset.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_reset.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_8b10b_dec.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_8b10b_dec.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_channel_synch.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_channel_synch.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_deskew.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_deskew.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_deskew_channel.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_deskew_channel.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_deskew_ram.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_deskew_ram.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/altera_soft_xaui_rx_deskew_ram.v VERILOG_ENCRYPT PATH ../softpcs/mentor/altera_soft_xaui_rx_deskew_ram.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_invalid_code_det.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_invalid_code_det.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_parity.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_parity.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_parity_4b.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_parity_4b.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_parity_6b.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_parity_6b.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_rate_match.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_rate_match.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_rate_match_ram.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_rate_match_ram.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_rl_chk_6g.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_rl_chk_6g.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_rx_sm.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_rx_sm.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_tx.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_tx.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_tx_8b10b_enc.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_tx_8b10b_enc.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_soft_xaui_tx_idle_conv.v VERILOG_ENCRYPT PATH ../softpcs/mentor/alt_soft_xaui_tx_idle_conv.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/l_modules.v VERILOG_ENCRYPT PATH ../softpcs/mentor/l_modules.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/serdes_4_unit_lc_siv.v VERILOG_ENCRYPT PATH ../softpcs/mentor/serdes_4_unit_lc_siv.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/serdes_4_unit_siv.v VERILOG_ENCRYPT PATH ../softpcs/mentor/serdes_4_unit_siv.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/serdes_4unit.v VERILOG_ENCRYPT PATH ../softpcs/mentor/serdes_4unit.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_pcs.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_pcs.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_reset.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_reset.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_8b10b_dec.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_8b10b_dec.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_channel_synch.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_channel_synch.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_deskew.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_deskew.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_deskew_channel.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_deskew_channel.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_deskew_ram.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_deskew_ram.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/altera_soft_xaui_rx_deskew_ram.v VERILOG_ENCRYPT PATH ../softpcs/cadence/altera_soft_xaui_rx_deskew_ram.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_invalid_code_det.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_invalid_code_det.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_parity.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_parity.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_parity_4b.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_parity_4b.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_parity_6b.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_parity_6b.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_rate_match.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_rate_match.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_rate_match_ram.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_rate_match_ram.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_rl_chk_6g.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_rl_chk_6g.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_rx_sm.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_rx_sm.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_tx.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_tx.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_tx_8b10b_enc.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_tx_8b10b_enc.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/alt_soft_xaui_tx_idle_conv.v VERILOG_ENCRYPT PATH ../softpcs/cadence/alt_soft_xaui_tx_idle_conv.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/l_modules.v VERILOG_ENCRYPT PATH ../softpcs/cadence/l_modules.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/serdes_4_unit_lc_siv.v VERILOG_ENCRYPT PATH ../softpcs/cadence/serdes_4_unit_lc_siv.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/serdes_4_unit_siv.v VERILOG_ENCRYPT PATH ../softpcs/cadence/serdes_4_unit_siv.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./cadence/serdes_4unit.v VERILOG_ENCRYPT PATH ../softpcs/cadence/serdes_4unit.v CADENCE_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_pcs.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_pcs.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_reset.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_reset.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_8b10b_dec.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_8b10b_dec.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_channel_synch.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_channel_synch.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_deskew.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_deskew.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_deskew_channel.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_deskew_channel.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_deskew_ram.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_deskew_ram.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/altera_soft_xaui_rx_deskew_ram.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/altera_soft_xaui_rx_deskew_ram.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_invalid_code_det.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_invalid_code_det.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_parity.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_parity.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_parity_4b.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_parity_4b.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_parity_6b.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_parity_6b.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_rate_match.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_rate_match.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_rate_match_ram.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_rate_match_ram.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_rl_chk_6g.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_rl_chk_6g.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_rx_sm.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_rx_sm.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_tx.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_tx.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_tx_8b10b_enc.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_tx_8b10b_enc.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/alt_soft_xaui_tx_idle_conv.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/alt_soft_xaui_tx_idle_conv.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/l_modules.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/l_modules.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/serdes_4_unit_lc_siv.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/serdes_4_unit_lc_siv.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/serdes_4_unit_siv.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/serdes_4_unit_siv.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./synopsys/serdes_4unit.v VERILOG_ENCRYPT PATH ../softpcs/synopsys/serdes_4unit.v SYNOPSYS_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_pcs.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_pcs.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_reset.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_reset.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_8b10b_dec.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_8b10b_dec.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_channel_synch.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_channel_synch.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_deskew.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_deskew.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_deskew_channel.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_deskew_channel.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_deskew_ram.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_deskew_ram.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/altera_soft_xaui_rx_deskew_ram.v VERILOG_ENCRYPT PATH ../softpcs/aldec/altera_soft_xaui_rx_deskew_ram.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_invalid_code_det.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_invalid_code_det.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_parity.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_parity.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_parity_4b.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_parity_4b.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_parity_6b.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_parity_6b.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_rate_match.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_rate_match.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_rate_match_ram.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_rate_match_ram.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_rl_chk_6g.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_rl_chk_6g.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_rx_sm.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_rx_sm.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_tx.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_tx.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_tx_8b10b_enc.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_tx_8b10b_enc.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/alt_soft_xaui_tx_idle_conv.v VERILOG_ENCRYPT PATH ../softpcs/aldec/alt_soft_xaui_tx_idle_conv.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/l_modules.v VERILOG_ENCRYPT PATH ../softpcs/aldec/l_modules.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/serdes_4_unit_lc_siv.v VERILOG_ENCRYPT PATH ../softpcs/aldec/serdes_4_unit_lc_siv.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/serdes_4_unit_siv.v VERILOG_ENCRYPT PATH ../softpcs/aldec/serdes_4_unit_siv.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./aldec/serdes_4unit.v VERILOG_ENCRYPT PATH ../softpcs/aldec/serdes_4unit.v ALDEC_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./sxaui.v VERILOG PATH .//sxaui.v
+Info: xcvr_xaui_0: add_fileset_file ./mentor/sxaui.v VERILOG_ENCRYPT PATH ./mentor/sxaui.v MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./a10_xcvr_xaui.sv SYSTEM_VERILOG PATH .//a10_xcvr_xaui.sv
+Info: xcvr_xaui_0: add_fileset_file ./mentor/a10_xcvr_xaui.sv SYSTEM_VERILOG_ENCRYPT PATH ./mentor/a10_xcvr_xaui.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_arbiter.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_arbiter.sv
+Info: xcvr_xaui_0: add_fileset_file ./alt_xcvr_m2s.sv SYSTEM_VERILOG PATH ../../altera_xcvr_generic/ctrl/alt_xcvr_m2s.sv
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_arbiter.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_arbiter.sv MENTOR_SPECIFIC
+Info: xcvr_xaui_0: add_fileset_file ./mentor/alt_xcvr_m2s.sv SYSTEM_VERILOG_ENCRYPT PATH ../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_m2s.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: "Generating: a10_xcvr_custom_native"
+Info: xaui_phy: "Generating: a10_xcvr_custom_native"
+Info: xaui_phy: "Generating: altera_xcvr_native_a10"
+Info: a10_xcvr_custom_native: add_fileset_file ./altera_xcvr_functions.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/altera_xcvr_functions.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/altera_xcvr_functions.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../../altera_xcvr_generic/mentor/altera_xcvr_functions.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./alt_xcvr_resync.sv SYSTEM_VERILOG PATH ../../../../altera_xcvr_generic/ctrl/alt_xcvr_resync.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/alt_xcvr_resync.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../../altera_xcvr_generic/mentor/ctrl/alt_xcvr_resync.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./twentynm_pcs.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_pcs.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./twentynm_pma.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_pma.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./twentynm_xcvr_avmm.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_avmm.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./twentynm_xcvr_native.sv SYSTEM_VERILOG PATH ../../../alt_xcvr_core/nf/twentynm_xcvr_native.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/twentynm_pcs.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_pcs.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/twentynm_pma.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_pma.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/twentynm_xcvr_avmm.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_xcvr_avmm.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/twentynm_xcvr_native.sv SYSTEM_VERILOG_ENCRYPT PATH ../../../alt_xcvr_core/nf/mentor/twentynm_xcvr_native.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./a10_avmm_h.sv SYSTEM_VERILOG PATH ..//a10_avmm_h.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./altera_xcvr_native_a10.sv SYSTEM_VERILOG PATH ..//altera_xcvr_native_a10.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./alt_xcvr_native_avmm_nf.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_avmm_nf.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./alt_xcvr_native_avmm_csr.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_avmm_csr.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./alt_xcvr_native_prbs_accum.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_prbs_accum.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./alt_xcvr_native_embedded_debug.sv SYSTEM_VERILOG PATH ..//alt_xcvr_native_embedded_debug.sv
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/a10_avmm_h.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/a10_avmm_h.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/altera_xcvr_native_a10.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/altera_xcvr_native_a10.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/alt_xcvr_native_avmm_nf.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/alt_xcvr_native_avmm_nf.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/alt_xcvr_native_avmm_csr.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/alt_xcvr_native_avmm_csr.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/alt_xcvr_native_prbs_accum.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/alt_xcvr_native_prbs_accum.sv MENTOR_SPECIFIC
+Info: a10_xcvr_custom_native: add_fileset_file ./mentor/alt_xcvr_native_embedded_debug.sv SYSTEM_VERILOG_ENCRYPT PATH ../mentor/alt_xcvr_native_embedded_debug.sv MENTOR_SPECIFIC
+Info: xaui_phy: Done "xaui_phy" with 4 modules, 181 files
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=/share/jinz/Altera/Arria10/XAUI/xaui_phy/xaui_phy.spd --output-directory=/share/jinz/Altera/Arria10/XAUI/xaui_phy/sim/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/share/jinz/Altera/Arria10/XAUI/xaui_phy/xaui_phy.spd --output-directory=/share/jinz/Altera/Arria10/XAUI/xaui_phy/sim/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /share/jinz/Altera/Arria10/XAUI/xaui_phy/sim/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in /share/jinz/Altera/Arria10/XAUI/xaui_phy/sim/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in /share/jinz/Altera/Arria10/XAUI/xaui_phy/sim/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /share/jinz/Altera/Arria10/XAUI/xaui_phy/sim/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	2 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /share/jinz/Altera/Arria10/XAUI/xaui_phy/sim/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.

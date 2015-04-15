@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="xcvr_xaui_0"
+ megafunction_name="ALTERA_XCVR_XAUI"
+ intended_family="Arria 10"
+ specifies="all_ports">
+ <global>
+  <pin name="pll_ref_clk" direction="input" scope="external" />
+  <pin name="xgmii_tx_clk" direction="input" scope="external" />
+  <pin name="xgmii_rx_clk" direction="output" scope="external" />
+  <pin name="xgmii_rx_dc[71..0]" direction="output" scope="external" />
+  <pin name="xgmii_tx_dc[71..0]" direction="input" scope="external" />
+  <pin name="xaui_rx_serial_data[3..0]" direction="input" scope="external" />
+  <pin name="xaui_tx_serial_data[3..0]" direction="output" scope="external" />
+  <pin name="rx_ready" direction="output" scope="external" />
+  <pin name="tx_ready" direction="output" scope="external" />
+  <pin name="phy_mgmt_clk" direction="input" scope="external" />
+  <pin name="phy_mgmt_clk_reset" direction="input" scope="external" />
+  <pin name="phy_mgmt_address[8..0]" direction="input" scope="external" />
+  <pin name="phy_mgmt_read" direction="input" scope="external" />
+  <pin name="phy_mgmt_readdata[31..0]" direction="output" scope="external" />
+  <pin name="phy_mgmt_write" direction="input" scope="external" />
+  <pin name="phy_mgmt_writedata[31..0]" direction="input" scope="external" />
+  <pin name="phy_mgmt_waitrequest" direction="output" scope="external" />
+  <pin name="pll_locked_i" direction="input" scope="external" />
+  <pin name="tx_bonding_clocks[5..0]" direction="input" scope="external" />
+  <pin name="pll_powerdown_o" direction="output" scope="external" />
+  <pin name="pll_cal_busy_i" direction="input" scope="external" />
+ </global>
+</pinplan>

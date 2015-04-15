@@ -1,0 +1,22 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst unsaved.xcvr_xaui_0 -pg 1 -lvl 1 -y 30
+preplace inst unsaved -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.tx_ready,(SLAVE)xcvr_xaui_0.tx_ready) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)xcvr_xaui_0.pll_locked_i,(SLAVE)unsaved.pll_locked_i) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.phy_mgmt_clk,(SLAVE)xcvr_xaui_0.phy_mgmt_clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.tx_bonding_clocks,(SLAVE)xcvr_xaui_0.tx_bonding_clocks) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.xaui_rx_serial_data,(SLAVE)xcvr_xaui_0.xaui_rx_serial_data) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.pll_cal_busy_i,(SLAVE)xcvr_xaui_0.pll_cal_busy_i) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(MASTER)xcvr_xaui_0.xgmii_rx_dc,(MASTER)unsaved.xgmii_rx_dc) 1 1 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)xcvr_xaui_0.phy_mgmt,(SLAVE)unsaved.phy_mgmt) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.xaui_tx_serial_data,(SLAVE)xcvr_xaui_0.xaui_tx_serial_data) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)xcvr_xaui_0.pll_powerdown_o,(SLAVE)unsaved.pll_powerdown_o) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.phy_mgmt_clk_reset,(SLAVE)xcvr_xaui_0.phy_mgmt_clk_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.xgmii_tx_dc,(SLAVE)xcvr_xaui_0.xgmii_tx_dc) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.pll_ref_clk,(SLAVE)xcvr_xaui_0.pll_ref_clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.rx_ready,(SLAVE)xcvr_xaui_0.rx_ready) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(SLAVE)unsaved.xgmii_tx_clk,(SLAVE)xcvr_xaui_0.xgmii_tx_clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>unsaved</net_container>(MASTER)unsaved.xgmii_rx_clk,(MASTER)xcvr_xaui_0.xgmii_rx_clk) 1 1 1 NJ
+levelinfo -pg 1 0 130 470
+levelinfo -hier unsaved 140 170 360

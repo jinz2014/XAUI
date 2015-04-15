@@ -1,0 +1,38 @@
+# system info atxpll on 2015.04.14.11:26:31
+system_info:
+name,value
+DEVICE,10AX115R4F40I3SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,1429025189
+#
+#
+# Files generated for atxpll on 2015.04.14.11:26:31
+files:
+filepath,kind,attributes,module,is_top
+sim/atxpll.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,atxpll,true
+altera_xcvr_atx_pll_a10_141/sim/twentynm_xcvr_avmm.sv,SYSTEM_VERILOG,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/mentor/twentynm_xcvr_avmm.sv,SYSTEM_VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/alt_xcvr_resync.sv,SYSTEM_VERILOG,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/mentor/alt_xcvr_resync.sv,SYSTEM_VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/a10_avmm_h.sv,SYSTEM_VERILOG,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/alt_xcvr_native_avmm_nf.sv,SYSTEM_VERILOG,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/mentor/a10_avmm_h.sv,SYSTEM_VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/mentor/alt_xcvr_native_avmm_nf.sv,SYSTEM_VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/altera_xcvr_atx_pll_a10.sv,SYSTEM_VERILOG,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/a10_xcvr_atx_pll.sv,SYSTEM_VERILOG,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/alt_xcvr_pll_embedded_debug.sv,SYSTEM_VERILOG,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/alt_xcvr_pll_avmm_csr.sv,SYSTEM_VERILOG,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/mentor/altera_xcvr_atx_pll_a10.sv,SYSTEM_VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/mentor/a10_xcvr_atx_pll.sv,SYSTEM_VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/mentor/alt_xcvr_pll_embedded_debug.sv,SYSTEM_VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/mentor/alt_xcvr_pll_avmm_csr.sv,SYSTEM_VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/plain_files.txt,OTHER,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/mentor_files.txt,OTHER,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/cadence_files.txt,OTHER,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/synopsys_files.txt,OTHER,,altera_xcvr_atx_pll_a10,false
+altera_xcvr_atx_pll_a10_141/sim/aldec_files.txt,OTHER,,altera_xcvr_atx_pll_a10,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+atxpll.xcvr_atx_pll_a10_0,altera_xcvr_atx_pll_a10
